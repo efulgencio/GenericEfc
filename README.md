@@ -22,12 +22,13 @@ func operacionResta<T: Numeric>(op1: T, op2: T) -> T {
 func operacionMultiplicar<T: Numeric>(op1: T, op2: T) -> T {
     return op1 * op2
 }
-
+'''
 operacionSuma(op1: 2.1, op2: 5)
 operacionSuma(op1: 5, op2: 5)
 operacionResta(op1: 2.1, op2: 5)
 operacionResta(op1: 5, op2: 5)
 operacionMultiplicar(op1: 2.1, op2: 5)
 operacionMultiplicar(op1: 5, op2: 5)
+'''
 
 
